@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -8,10 +9,26 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // final user = FirebaseAuth.instance.currentUser!;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('signed in'),
+      body: Center (
+        child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text('signed in as: cabralniko@gmail.com'),
+          MaterialButton(
+            onPressed:() {
+              FirebaseAuth.instance.signOut();
+    },
+    color: Colors.deepOrangeAccent[200],
+    child: Text('sign out'),
+    )
+    ],
+    ),
+      ),
+
     );
   }
 }

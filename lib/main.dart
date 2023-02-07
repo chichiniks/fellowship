@@ -1,10 +1,5 @@
-import 'package:fellowship/home_page.dart';
-import 'package:fellowship/login_page.dart';
-import 'package:fellowship/main_page.dart';
+import 'package:fellowship/auth/main_page.dart';
 import 'package:flutter/material.dart';
-import 'login_page.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'main_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 

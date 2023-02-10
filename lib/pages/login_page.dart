@@ -132,6 +132,7 @@ class _LoginPageState extends State<LoginPage> {
 
                     //not a member register
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text('Not a member?',
                           style: TextStyle(

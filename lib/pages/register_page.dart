@@ -130,6 +130,7 @@ class _RegisterPageState extends State <RegisterPage> {
 
                 //not a member register
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text('I am a member!',
                       style: TextStyle(

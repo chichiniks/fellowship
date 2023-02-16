@@ -1,3 +1,4 @@
+import 'package:fellowship/auth/account_info.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -21,10 +22,17 @@ class _HomePageState extends State<HomePage> {
           MaterialButton(
             onPressed:() {
               FirebaseAuth.instance.signOut();
-    },
-    color: Colors.deepOrangeAccent[200],
-    child: Text('sign out'),
-    )
+            },
+            color: Colors.deepOrangeAccent[200],
+            child: Text('sign out'),
+          ),
+          MaterialButton(
+              onPressed: () {
+                AccountInfo(); // make account setup homescreen
+              },
+            color: Colors.deepOrangeAccent[200],
+            child: Text('Account Setup'),
+          )
     ],
     ),
       ),

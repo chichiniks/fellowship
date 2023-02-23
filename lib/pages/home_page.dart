@@ -23,14 +23,14 @@ class _HomePageState extends State<HomePage> {
             onPressed:() {
               FirebaseAuth.instance.signOut();
             },
-            color: Colors.deepOrangeAccent[200],
+            color: Colors.deepPurple[200],
             child: Text('sign out'),
           ),
           MaterialButton(
               onPressed: () {
                 AccountInfo(); // make account setup homescreen
               },
-            color: Colors.deepOrangeAccent[200],
+            color: Colors.deepPurple[200],
             child: Text('Account Setup'),
           )
     ],

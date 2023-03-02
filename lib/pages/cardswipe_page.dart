@@ -1,4 +1,4 @@
-import 'package:fellowship/pages/util/card_provider.dart';
+/*import 'package:fellowship/pages/util/card_provider.dart';
 import 'package:fellowship/pages/util/travel_card.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -206,4 +206,4 @@ class _SwipePageState extends State<SwipePage> {
         ],
       );
     }
-}
+}*/

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../pages/login_page.dart';
 import '../pages/home_page.dart';
 import '../auth/account_info.dart';
+import '../pages/questionnaire_page.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({Key? key}) : super(key: key);

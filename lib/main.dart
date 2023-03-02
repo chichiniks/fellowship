@@ -1,5 +1,6 @@
 import 'package:fellowship/auth/main_page.dart';
 import 'package:fellowship/pages/cardswipe_page.dart';
+import 'package:fellowship/pages/search_input.dart';
 import 'package:fellowship/pages/util/card_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';

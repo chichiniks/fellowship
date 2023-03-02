@@ -44,6 +44,8 @@ dependencies:
   fluttertoast: ^8.2.1
   stats: ^2.0.0
   flip_card: ^0.7.0
+  google_nav_bar: ^5.0.6
+  flutter_svg: ^0.19.3
 
 
 dev_dependencies:
